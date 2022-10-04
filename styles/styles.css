@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;500&display=swap');
+
 body {
   margin: 0;
   background-color: #000000;
   color: #CCCCCC;
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-family: 'Rokkitt', serif;
   font-size: 24px;
 }
 
@@ -47,8 +49,9 @@ a {
 }
 
 a:hover {
-  color: #FFFFFF;
-  text-decoration: line-through;
+  color:black;
+  Text-transform: uppercase;
+  background-color: yellow;
 }
 
 .flex-container {

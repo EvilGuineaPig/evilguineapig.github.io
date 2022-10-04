@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;500&display=swap');
 
 /* ---------------------------------------------------------- *\
  * Globals.
@@ -6,6 +7,11 @@
 
 html {
   box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
 }
 
 *,
@@ -37,8 +43,12 @@ body {
 
 h1,
 h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: normal;
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  font-size: larger;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding-left: 4px;
 }
 
 ::-moz-selection {
@@ -78,6 +88,7 @@ img {
 
 p {
   margin: 15px 0;
+  font-size: medium;
 }
 
 p:last-child {
@@ -89,7 +100,8 @@ p:last-child {
 ul,
 ol {
   margin: 15px 0;
-  padding-left: 30px;
+  padding: 5px;
+  
 }
 
 ul:last-child,
@@ -98,7 +110,12 @@ ol:last-child {
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: none;  
+}
+
+li {
+  font-size: large;
+  font-family: 'Rokkitt', serif;
 }
 
 dl {
@@ -211,7 +228,7 @@ a:hover {
 .nav__title {
   padding: 0 15px;
 
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: 'Rokkitt', serif;
   line-height: 1;
 }
 
@@ -244,9 +261,11 @@ a:hover {
 
 .nav__item:hover {
   color: inherit;
-  background: rgba(0, 0, 0, 0.05);
-
+  background: white;
+  color: black;
+  font-weight: bold;
   text-decoration: none;
+  Text-transform: uppercase;
 }
 
 .nav__item:focus {
